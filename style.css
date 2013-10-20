@@ -47,7 +47,7 @@ p {
 }
 
 .siteinfo h4 {
-  font-size:28px;
+  font-size:24px;
 }
 
 .siteinfo {
@@ -123,8 +123,8 @@ ul.flyout li a, .nav-bar li ul li a {
 }
 
 div.panel {
-  background: none repeat scroll 0 0 #F8C188;
-  border: none;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #cccccc;
 }
 
 div.alert-box {
