@@ -1,0 +1,140 @@
+/*
+Theme Name: Peoples Open Network
+Theme URI: https://peoplesopen.net/about
+Description: A child theme for bones/Zurb foundation based wordpress theme.
+Version: 0.1
+Author: Wrought, Tunabananas
+Author URI: https://sudoroom.org/wiki/Mesh/website
+Template: wp-foundation
+Tags: peoples open network, peoplesopen.net, child, child theme, bones, zurb, foundation, 320press, clean, basic
+*/
+
+@import url("../wp-foundation/style.css");
+
+/* Custom Font Faces */
+
+@font-face{
+  font-family: anaheim;
+  src:url('fonts/anaheim/Anaheim-Regular.ttf') format ("truetype");
+}
+
+@font-face{
+  font-family: dosis;
+  src:url('fonts/dosis/Dosis-Regular.ttf') format ("truetype");
+}
+
+/* Style Customizations */
+
+body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, p, blockquote, th, td {
+  font-size: 18px;
+}
+
+body {
+  font-family: "anaheim",sans-serif!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "dosis",sans-serif!important;
+}
+
+p {
+  font-size: 18px;
+}
+
+.siteinfo h1 {
+  font-weight: normal;
+  font-size:56px;
+}
+
+.siteinfo h4 {
+  font-size:28px;
+}
+
+.siteinfo {
+  text-align: right;
+}
+
+.nav-bar > li {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: none;
+}
+
+.nav-bar > li:hover {
+  background: none repeat scroll 0 0 #F18F2B;
+}
+
+.nav-bar > li.active {
+  background: none repeat scroll 0 0 #F18F2B;
+}
+
+.nav-bar > li.active:hover {
+  background: none repeat scroll 0 0 #F18F2B;
+}
+
+.nav-bar > li:last-child {
+  border-right: none;
+}
+
+.nav-bar > li > a:first-child {
+  font-size: 18px;
+}
+
+ul.flyout li a, .nav-bar li ul li a {
+  font-size: 18px;
+}
+
+.button {
+  font-family: "dosis",sans-serif;
+}
+
+.button.large {
+  font-size: 24px;
+}
+
+.button.medium {
+  font-size: 18px;
+}
+
+.button.small {
+  font-size: 14px;
+}
+
+.button.tiny {
+ font-size: 12px;
+}
+
+.button.alert {
+  background: none repeat scroll 0 0 #CA2470;
+  border: 1px solid #983A65;
+}
+
+.button.alert:hover {
+  background: none repeat scroll 0 0 #840C42;
+  border: 1px solid #983A65;
+}
+
+.button {
+  background: none repeat scroll 0 0 #20B24B;
+  border: 1px solid #0A742A;
+}
+
+.button:hover {
+  background-color: #0A742A;
+}
+
+div.panel {
+  background: none repeat scroll 0 0 #F8C188;
+  border: none;
+}
+
+div.alert-box {
+  background-color: #F18F2B;
+}
+
+div.alert-box.success {
+  background-color: #0A742A;
+}
+
+.label {
+  background-color: #20B24B;
+}
