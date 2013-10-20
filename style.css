@@ -55,20 +55,20 @@ p {
 }
 
 .nav-bar > li {
-  background: none repeat scroll 0 0 #FFFFFF;
+  background: none repeat scroll 0 0 #20B24B;
   border: none;
 }
 
 .nav-bar > li:hover {
-  background: none repeat scroll 0 0 #F18F2B;
+  background: none repeat scroll 0 0 #0A742A;
 }
 
 .nav-bar > li.active {
-  background: none repeat scroll 0 0 #F18F2B;
+  background: none repeat scroll 0 0 #0A742A;
 }
 
 .nav-bar > li.active:hover {
-  background: none repeat scroll 0 0 #F18F2B;
+  background: none repeat scroll 0 0 #20B24B;
 }
 
 .nav-bar > li:last-child {

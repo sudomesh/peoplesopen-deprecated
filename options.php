@@ -106,13 +106,13 @@ function optionsframework_options() {
 	$options[] = array( "name" => "Top nav item color",
 						"desc" => "Link color.",
 						"id" => "top_nav_link_color",
-						"std" => "#222222",
+						"std" => "#ffffff",
 						"type" => "color");
 						
 	$options[] = array( "name" => "Top nav item hover color",
 						"desc" => "Link hover color.",
 						"id" => "top_nav_link_hover_color",
-						"std" => "#222222",
+						"std" => "#ffffff",
 						"type" => "color");
 						
 	$options[] = array( "name" => "Other Settings",
