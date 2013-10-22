@@ -138,3 +138,26 @@ div.alert-box.success {
 .label {
   background-color: #20B24B;
 }
+
+/* Responsive Hacks */
+
+#mobile-nav-button {
+  margin-bottom: 10px;
+}
+
+.active #main {
+  margin-left: 0;
+}
+
+.mobile-nav-container {
+  position: relative;
+  top: inherit;
+  margin-left: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  display: none;
+}
+
+.mobile-nav-container ul {
+  margin-bottom: 0;
+}
