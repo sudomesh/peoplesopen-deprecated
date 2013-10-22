@@ -67,13 +67,13 @@ function optionsframework_options() {
 	$options[] = array( "name" => "Headings",
 						"desc" => "Used in H1, H2, H3, H4, H5 & H6 tags.",
 						"id" => "heading_typography",
-						"std" => array('face' => '"dosis",sans-serif','style' => 'normal','color' => '#222222'),
+						"std" => array('face' => 'dosisregular,sans-serif','style' => 'normal','color' => '#222222'),
 						"type" => "wpbs_typography");
 						
 	$options[] = array( "name" => "Main Body Text",
 						"desc" => "Used in P tags.",
 						"id" => "main_body_typography",
-						"std" => array('face' => 'anaheim','style' => 'normal','color' => '#222222'),
+						"std" => array('face' => 'anaheimregular,sans-serif','style' => 'normal','color' => '#222222'),
 						"type" => "wpbs_typography");
 						
 	$options[] = array( "name" => "Link Color",
