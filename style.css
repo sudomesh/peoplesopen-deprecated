@@ -14,14 +14,50 @@ Tags: peoples open network, peoplesopen.net, child, child theme, bones, zurb, fo
 /* Custom Font Faces */
 
 @font-face{
-  font-family: anaheim;
-  src:url('fonts/anaheim/Anaheim-Regular.ttf') format ("truetype");
+    font-family: 'anaheimregular';
+    src: local('Anaheim');
+    src: url('fonts/anaheim-regular-webfont.eot'),
+         url('fonts/anaheim-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/anaheim-regular-webfont.woff') format('woff'),
+         url('fonts/anaheim-regular-webfont.ttf') format('truetype'),
+         url('fonts/anaheim-regular-webfont.svg#anaheimregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face{
-  font-family: dosis;
-  src:url('fonts/dosis/Dosis-Regular.ttf') format ("truetype");
+@font-face {
+    font-family: 'dosisbold';
+    src: url('fonts/dosis-bold-webfont.eot');
+    src: url('fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-bold-webfont.woff') format('woff'),
+         url('fonts/dosis-bold-webfont.ttf') format('truetype'),
+         url('fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'dosislight';
+    src: url('fonts/dosis-light-webfont.eot');
+    src: url('fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-light-webfont.woff') format('woff'),
+         url('fonts/dosis-light-webfont.ttf') format('truetype'),
+         url('fonts/dosis-light-webfont.svg#dosislight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('fonts/dosis-regular-webfont.eot');
+    src: url('fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-regular-webfont.woff') format('woff'),
+         url('fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* Style Customizations */
 
@@ -30,11 +66,11 @@ body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, p, blockquote, th, td {
 }
 
 body {
-  font-family: "anaheim",sans-serif!important;
+  font-family: anaheimregular,sans-serif!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "dosis",sans-serif!important;
+  font-family: dosisregular,sans-serif!important;
 }
 
 p {
@@ -84,7 +120,7 @@ ul.flyout li a, .nav-bar li ul li a {
 }
 
 .button {
-  font-family: "dosis",sans-serif;
+  font-family: dosisregular,sans-serif!important;
 }
 
 .button.large {
